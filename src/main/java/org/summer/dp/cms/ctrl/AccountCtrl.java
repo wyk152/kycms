@@ -161,7 +161,7 @@ public class AccountCtrl extends BaseController{
 	@ResponseBody
 	public void testMailAndRedis(){
 		ValueOperations<String, String> valueOperations =  this.redisTemplate.opsForValue();
-		valueOperations.set("donggege", "东哥哥真棒", 259200l, TimeUnit.MILLISECONDS);
-		smtpMailService.sendTextMail("18520786445@qq.com","18520786445@qq.com", "PUSHIO", "PUSHIO发邮件测试", "东哥哥真棒");
+		valueOperations.set("kaidonggege", "凯哥哥真棒", 259200l, TimeUnit.MILLISECONDS);
+		smtpMailService.sendTextMail("1023510862@qq.com","1023510862@qq.com", "PUSHIO", "PUSHIO发邮件测试", "东哥哥真棒");
 	}
 }
