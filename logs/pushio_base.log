@@ -1,0 +1,147 @@
+15:47:26.005 [main] INFO  org.summer.dp.cms.Start - Starting Start on DESKTOP-NUDG3CQ with PID 6568 (C:\Users\admin\git\kycms\target\classes started by admin in C:\Users\admin\git\kycms)
+15:47:26.010 [main] INFO  org.summer.dp.cms.Start - No active profile set, falling back to default profiles: default
+15:47:26.199 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11d8ae8b: startup date [Mon Feb 20 15:47:26 CST 2017]; root of context hierarchy
+15:47:28.124 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+15:47:29.072 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfiguration' of type [class org.summer.dp.cms.ShiroConfiguration$$EnhancerBySpringCGLIB$$3c7ce398] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.282 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'passwordService' of type [class org.apache.shiro.authc.credential.DefaultPasswordService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.290 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'credentialsMatcher' of type [class org.apache.shiro.authc.credential.PasswordMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.343 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#b27b210' of type [class org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.343 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#b27b210' of type [class java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.348 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#5b5b59' of type [class org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.362 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#53d9826f' of type [class org.springframework.data.repository.query.ExtensionAwareEvaluationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.618 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.CONFIGURATION_PROPERTIES' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.619 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$NonEmbeddedConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$NonEmbeddedConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.802 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.867 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.jpa.CONFIGURATION_PROPERTIES' of type [class org.springframework.boot.autoconfigure.orm.jpa.JpaProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.883 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration' of type [class org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$13be8c9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.974 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jpaVendorAdapter' of type [class org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:29.978 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'entityManagerFactoryBuilder' of type [class org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:30.088 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+15:47:30.121 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:47:30.282 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {4.3.11.Final}
+15:47:30.285 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:47:30.289 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+15:47:30.746 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+15:47:30.865 [main] WARN  o.a.tomcat.jdbc.pool.ConnectionPool - initialSize is larger than maxActive, setting initialSize to: 5
+15:47:30.867 [main] WARN  o.a.tomcat.jdbc.pool.ConnectionPool - maxIdle is larger than maxActive, setting maxIdle to: 5
+15:47:31.271 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+15:47:31.388 [main] INFO  o.h.c.r.SingletonRedisRegionFactory - create SingletonRedisRegionFactory instance.
+15:47:31.558 [main] INFO  o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory
+15:47:31.562 [main] INFO  o.h.c.r.SingletonRedisRegionFactory - create SingletonRedisRegionFactory instance.
+15:47:31.592 [main] INFO  o.h.c.r.SingletonRedisRegionFactory - starting SingletonRedisRegionFactory...
+15:47:31.594 [main] INFO  o.h.cache.redis.util.JedisTool - create JedisClient.
+15:47:31.598 [main] INFO  o.h.cache.redis.util.JedisTool - Loading cache properties... path=[hibernate-redis.properties]
+15:47:31.602 [main] INFO  o.h.cache.redis.util.JedisTool - create JedisPool. host=[127.0.0.1], port=[6379], timeout=[2000], password=[null], database=[1]
+15:47:31.886 [main] INFO  o.h.c.r.SingletonRedisRegionFactory - Started SingletonRedisRegionFactory
+15:47:31.889 [main] INFO  o.h.cache.spi.UpdateTimestampsCache - HHH000250: Starting update timestamps cache at region: hibernate-redis.org.hibernate.cache.spi.UpdateTimestampsCache
+15:47:31.897 [main] INFO  o.h.c.internal.StandardQueryCache - HHH000248: Starting query cache at region: hibernate-redis.org.hibernate.cache.internal.StandardQueryCache
+15:47:32.544 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update
+15:47:32.544 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000102: Fetching database metadata
+15:47:32.547 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000396: Updating schema
+15:47:32.603 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.account
+15:47:32.604 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [password, add_date, login_name, id, add_user_id, modify_user_id, modify_date, status]
+15:47:32.604 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_8em0072529dv0vsr9lg9tlvfs, fk_q7b7oggixoobb4g24h0tikevt]
+15:47:32.605 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_8em0072529dv0vsr9lg9tlvfs, uk_s00mhdt1w0b4bc900jk5is3wp, fk_q7b7oggixoobb4g24h0tikevt, primary]
+15:47:32.628 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.department
+15:47:32.628 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [add_date, name, id, add_user_id, modify_user_id, enterprise_id, modify_date]
+15:47:32.628 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_ekx0hdo99g7w6fddrf0gw4fya]
+15:47:32.629 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_ekx0hdo99g7w6fddrf0gw4fya, primary]
+15:47:32.654 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.dictionary
+15:47:32.654 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [type_name, name, id, type]
+15:47:32.654 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+15:47:32.654 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+15:47:32.672 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.employee
+15:47:32.672 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [default_post_id, add_date, date_of_birth, id_card, education_background, add_user_id, marital_status, account_id, name, id, state, modify_user_id, modify_date, email]
+15:47:32.673 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_lw5l1corp54gg3djht4t7w3tk, fk_41gjyc8ldn8lgna1nleapohys, fk_lsnx7na4u8ohrhoeag7un4wh3]
+15:47:32.673 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_lw5l1corp54gg3djht4t7w3tk, fk_41gjyc8ldn8lgna1nleapohys, uk_lsnx7na4u8ohrhoeag7un4wh3, primary]
+15:47:32.689 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.employee_posts
+15:47:32.689 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [post_id, id, emp_id]
+15:47:32.690 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_6d23co2l5fax7t7ef8qh7pafu, fk_sp3i43v8s8v09s6d1sen9w9k0]
+15:47:32.690 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_6d23co2l5fax7t7ef8qh7pafu, fk_sp3i43v8s8v09s6d1sen9w9k0, primary]
+15:47:32.708 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.enterprise
+15:47:32.708 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [register_address, num_of_employee, add_date, email_address, name, property, telephone, id, add_user_id, fax, modify_user_id, modify_date]
+15:47:32.708 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_ccf9f5h0l6dmndjdt1d8qwfad]
+15:47:32.709 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_ccf9f5h0l6dmndjdt1d8qwfad, primary]
+15:47:32.741 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.function
+15:47:32.741 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [ctrl_name, entity_package, name, crudo, menu_level, js_url, id, impler, is_menu, request_uri]
+15:47:32.742 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+15:47:32.742 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [primary]
+15:47:32.782 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.menu
+15:47:32.782 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [update_time, account_id, update_user, create_time, level, name, weight, id, create_user, uri]
+15:47:32.782 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_accountid]
+15:47:32.782 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_accountid, primary]
+15:47:32.800 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.post
+15:47:32.800 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [add_date, department_id, name, index_page, id, add_user_id, modify_user_id, modify_date, need_filter]
+15:47:32.800 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_ru9pjtfmclknav7xa8833snpf]
+15:47:32.800 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_ru9pjtfmclknav7xa8833snpf, primary]
+15:47:32.821 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.post_function
+15:47:32.822 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [post_id, id, is_menu, fcuntion_id]
+15:47:32.822 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: [fk_m8a085rrnwjc0erg69q1e1r3x, fk_q4gt5y7ojh7ougf2kd56rqnit]
+15:47:32.822 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: [fk_m8a085rrnwjc0erg69q1e1r3x, fk_q4gt5y7ojh7ougf2kd56rqnit, primary]
+15:47:32.841 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000261: Table found: dpcms.hibernate_sequences
+15:47:32.841 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000037: Columns: [sequence_next_hi_value, sequence_name]
+15:47:32.841 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000108: Foreign keys: []
+15:47:32.841 [main] INFO  o.h.tool.hbm2ddl.TableMetadata - HHH000126: Indexes: []
+15:47:32.842 [main] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000232: Schema update complete
+15:47:32.926 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'entityManagerFactory' of type [class org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:32.927 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'entityManagerFactory' of type [class com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:32.941 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean '(inner bean)#75fd65c' of type [class com.sun.proxy.$Proxy74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:33.067 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jpaMappingContext' of type [class org.springframework.data.jpa.repository.config.JpaMetamodelMappingContextFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:33.069 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jpaMappingContext' of type [class org.springframework.data.jpa.mapping.JpaMetamodelMappingContext] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:33.353 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'accountRepository' of type [class org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:33.354 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'accountRepository' of type [class com.sun.proxy.$Proxy77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:33.355 [main] INFO  o.a.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+15:47:33.355 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'realm' of type [class org.summer.dp.cms.shiro.DbRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:33.367 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [class org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:33.384 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [class org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:33.437 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$28b22c7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:47:33.958 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+15:47:33.978 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+15:47:33.980 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.32
+15:47:34.227 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:47:34.227 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8028 ms
+15:47:34.998 [localhost-startStop-1] INFO  o.s.b.c.e.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+15:47:35.009 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:47:35.009 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'springSessionRepositoryFilter' to: [/*]
+15:47:35.010 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:47:35.010 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+15:47:35.010 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:47:35.010 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*]
+15:47:35.479 [main] INFO  o.a.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+15:47:35.904 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11d8ae8b: startup date [Mon Feb 20 15:47:26 CST 2017]; root of context hierarchy
+15:47:36.028 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/account/delete]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.AccountCtrl.delete(java.lang.Long[],org.summer.dp.cms.support.Response)
+15:47:36.030 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/account/save.do]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.AccountCtrl.save(org.summer.dp.cms.entity.base.Account,org.summer.dp.cms.support.Response,javax.servlet.http.HttpSession)
+15:47:36.030 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/account/find]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.AccountCtrl.findPage(javax.servlet.ServletRequest,org.summer.dp.cms.support.PageRequest,org.summer.dp.cms.support.Response,javax.servlet.http.HttpSession)
+15:47:36.030 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/account/createAccount]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.AccountCtrl.createAccount(long)
+15:47:36.030 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/account/getOne]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.AccountCtrl.getOne(long,org.summer.dp.cms.support.Response)
+15:47:36.031 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/account/testMailAndRedis]}" onto public void org.summer.dp.cms.ctrl.AccountCtrl.testMailAndRedis()
+15:47:36.033 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView org.summer.dp.cms.ctrl.IndexCtrl.index()
+15:47:36.038 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.LoginController.login(java.lang.String,java.lang.String,java.lang.String,org.summer.dp.cms.support.Response)
+15:47:36.038 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/timeOut]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.LoginController.timeOut(short,javax.servlet.http.HttpSession)
+15:47:36.043 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/nono]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.LoginController.nono(short,javax.servlet.http.HttpSession)
+15:47:36.043 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/success.do]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.LoginController.success(javax.servlet.http.HttpSession)
+15:47:36.043 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/imgcode],methods=[GET]}" onto public void org.summer.dp.cms.ctrl.LoginController.captcha(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+15:47:36.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getMenuAndUserName]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.LoginController.isLogin(javax.servlet.http.HttpSession,org.summer.dp.cms.support.Response)
+15:47:36.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/logout.do]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.LoginController.logout()
+15:47:36.045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/menu]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.MenuController.menu(org.summer.dp.cms.support.Response)
+15:47:36.045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/myMenu]}" onto public org.summer.dp.cms.support.Response org.summer.dp.cms.ctrl.MenuController.myMenu(org.summer.dp.cms.support.Response)
+15:47:36.048 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+15:47:36.057 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+15:47:36.065 [main] INFO  o.s.w.s.c.a.WebMvcConfigurerAdapter - Adding welcome page: class path resource [static/index.html]
+15:47:36.083 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+15:47:36.101 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:47:36.101 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:47:36.189 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:47:36.592 [main] INFO  o.s.u.f.SpringTemplateLoader - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11d8ae8b: startup date [Mon Feb 20 15:47:26 CST 2017]; root of context hierarchy] and template loader path [classpath:/templates/]
+15:47:36.594 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+15:47:36.618 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+15:47:36.912 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+15:47:36.926 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+15:47:37.075 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+15:47:37.081 [main] INFO  org.summer.dp.cms.Start - Started Start in 11.556 seconds (JVM running for 12.74)
+15:47:50.624 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+15:47:50.625 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+15:47:50.663 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+15:47:50.728 [http-nio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
