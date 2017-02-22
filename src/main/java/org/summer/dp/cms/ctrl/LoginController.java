@@ -49,7 +49,7 @@ import com.google.code.kaptcha.Producer;
 
 /**
  * 登录控制器
- * @author 赵宝东
+ * @author wyk
  *
  */
 @RestController
