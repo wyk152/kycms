@@ -1,4 +1,4 @@
-dpCmsApp.controller('indexCtrl', function($scope,checkLoginStateService){
+kyCmsApp.controller('indexCtrl', function($scope,checkLoginStateService){
 	$scope.checkLoginState = function() {
 		var promise  = checkLoginStateService.checkLoginState();
 		promise.then(function(result) { 

@@ -1,0 +1,1 @@
+var kyCmsApp = angular.module('kyCmsApp', ['ngMaterial']);

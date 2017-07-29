@@ -1,4 +1,4 @@
-dpCmsApp.service('checkLoginStateService', function($http) {
+kyCmsApp.service('checkLoginStateService', function($http) {
     this.checkLoginState = function(){
      return  $http.get('/getMenuAndUserName');
     }
